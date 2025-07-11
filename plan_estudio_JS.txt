@@ -1,0 +1,32 @@
+PROGRAMA
+
+Explicación de estructura básica de pag web:
+HTML = estructura (esqueleto)
+CSS = estilo (ropa y colores)
+JS = comportamiento (movimientos y decisiones)
+
+
+
+Semana 1: Fundamentos
+console.log("Hola mundo")
+Variables: let, const
+Tipos de datos: string, number, boolean, null, undefined
+Operadores: +, -, *, /, ===, !=, &&, ||
+Funciones básicas:
+function saludar(nombre) {
+  console.log("Hola " + nombre);
+}
+
+
+Semana 2: Control de flujo
+Condicionales: if, else
+Bucles: for, while
+Arrays y objetos:
+const frutas = ["manzana", "pera"];
+const persona = { nombre: "Ana", edad: 20 };
+
+
+Semana 3: Prácticas simples
+Crear un programa que pida el nombre y dé un saludo
+Calcular la suma de dos números introducidos por el usuario con prompt() y alert()
+
