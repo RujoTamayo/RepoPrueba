@@ -31,3 +31,8 @@ Una vez guardado todos los cambios:
 ---
 
 1. merge conflict: conflictos cuando hay cambios en mismo archivo por dos o mas miembros del equipo
+
+
+## DATOS
+---
+1. La rama principal puede llamarse main o master
