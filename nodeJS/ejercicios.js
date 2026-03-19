@@ -60,7 +60,8 @@ function calcularPrecioTotal(precio) {
 // filtrarMayores([5, 12, 8, 20, 1]);
 // Aqui va la funcion
 
-calcularVeinticincoPorciento (100) 
+// calcularVeinticincoPorciento (100) 
+calificar ()
 
 // Definir una funcion mas que reciba un parametro (numero) y que imprima el 25% de ese numero
 // Ejecuta la funcion en la consola
@@ -71,6 +72,14 @@ function calcularVeinticincoPorciento(numero) {
     const resultado = numero * 0.25;
     console.log(`El 25% de ${numero} es: ${resultado}`);
 }   
+
+function calificar(puntaje) {
+    if (puntaje == 10) {
+        console.log("Revisando... Muy bien Joki :D.... sacaste 100/10")
+    } else if (puntaje < 10) {
+        console.log("Vamos a revisarlo entre los dos")
+    }
+}
 
 
 
