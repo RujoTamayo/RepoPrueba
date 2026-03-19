@@ -16,6 +16,14 @@ function mostrarPerfil() {
     console.log(`Nombre: ${usuario.nombre}`);
     console.log(`¿Es Premium?: ${usuario.esPremium ? "Sí" : "No"}`);
     console.log(usuario.presentarse());
+
+    if (usuario.edad > 18) {
+        console.log("Eres mayor de edad, puedes acceder a contenido exclusivo.");
+    } else {
+        console.log("Eres menor de edad, algunos contenidos pueden estar restringidos.");
+    }
+
+    const mayorDeEdad = usuario.edad > 18 ? "Sí" : "No";
 }
 
 // 8. Validador de Edad (Manejo de Errores - Try/Catch)
@@ -39,5 +47,13 @@ function tramitarINE(edad) {
 
 //  ----------------------------------------------- Ejecutar las funciones una por una:
 // mostrarPerfil();
-// tramitarINE(20);    // Caso éxito
-// tramitarINE("veinte"); // Caso error
+ tramitarINE("21 casi 22");    // Caso éxito
+ //tramitarINE("veinte"); // Caso error
+
+ // == es para comparar valores, 
+ // === compara valor y tipo de dato, 
+ // !== es diferente en valor, 
+ // !=== es diferente en valor o tipo de dato
+
+ // TAREA: Hace una funcion que tenga un objeto (que tenga una funcion) y try-catch
+ // Crear una rama en GitHub que se llame "feature/tarea" y subir el ejercicio
