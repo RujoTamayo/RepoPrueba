@@ -39,6 +39,19 @@ function filtrarMayores(lista) {
     console.log("Números mayores a 10:", resultado);
 }
 
+function calcularVeinticincoPorciento(numero) {
+    const resultado = numero * 0.25;
+    console.log(`El 25% de ${numero} es: ${resultado}`);
+}   
+
+function calificar(puntaje) {
+    if (puntaje == 10) {
+        console.log("Revisando... Muy bien Joki :D.... sacaste 100/10")
+    } else if (puntaje < 10) {
+        console.log("Vamos a revisarlo entre los dos")
+    }
+}
+
 // Aqui va definida la funcion de la tarea extra, que reciba un numero y imprima el 25% de ese numero
 
 // ################################################################################
@@ -61,29 +74,19 @@ function calcularPrecioTotal(precio) {
 // Aqui va la funcion
 
 // calcularVeinticincoPorciento (100) 
-calificar ()
+// calificar (10)
 
 // Definir una funcion mas que reciba un parametro (numero) y que imprima el 25% de ese numero
 // Ejecuta la funcion en la consola
 // subir el ejercicio a github 
 // no subir el ejercicio a github hasta que hayas ejecutado la funcion en la consola y verificado que funciona correctamente
 
-function calcularVeinticincoPorciento(numero) {
-    const resultado = numero * 0.25;
-    console.log(`El 25% de ${numero} es: ${resultado}`);
-}   
 
-function calificar(puntaje) {
-    if (puntaje == 10) {
-        console.log("Revisando... Muy bien Joki :D.... sacaste 100/10")
-    } else if (puntaje < 10) {
-        console.log("Vamos a revisarlo entre los dos")
-    }
-}
 
 
 
 
 // Ejemplo interactivo del RETURN:
-    // const factura = calcularPrecioTotal(100); 
-    // console.log(`El total a pagar con IVA es: $${factura}`);
+    const precioBase = 400; 
+    const factura = calcularPrecioTotal(precioBase); 
+    console.log(`El total a pagar con IVA es: $${factura}`);
